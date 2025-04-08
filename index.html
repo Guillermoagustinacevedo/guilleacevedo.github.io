@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="#presentacion"></a>
+            <h2 class="navegacion__titulo"> Informatorio</h2>     
+        <ul class="enlaces">
+            <li class="enlaces__item">
+                <a class="enlaces__enlace" href="#presentacion"> Inicio</a>
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace" href="#sobre-mi"> Sobre mi</a>
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace" href="#proyectos"> Proyectos</a>
+            </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor_info">
+                <h1 class="presentacion__titulo"> Iniciando en la programación</h1>
+                <p class="presentacion__parrafo"> Hola! mi  nombre es Guillermo, y te enivito a conocer mi Portfolio</p>
+            
+            <div class="presentacion__contenedor_botones">
+                <a href="#sobre-mi" class="boton" role="button"> Sobre mi</a>
+                <a href="./assets/docs/cv.pdf.pdf" target="_blank" class="boton boton_oscuro" role="button"> Descargar CV</a>
+            </div>
+          </div>
+        </section>
+
+        <article class="articulo sobre_mi" id="sobre-mi">
+            <h2 class="articulo__titulo">Un poco sobre mi</h2>
+            <div class="articulo__contenedor_descripciones">
+              <section class="seccion_descripcion">
+                <div class="seccion_descripcion__porta_retrato">
+                  <img
+                    class="seccion_descripcion__imagen"
+                    src="./assets/imagenes/psi.jpg"
+                    alt="foto trabajando en la oficina"
+                    title="trabajando en la oficina"
+                  />
+                </div>
+                <div
+                  class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                  aria-label="descripcion personal"
+                >
+                  <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                    Mi historia
+                  </h3>
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                  >
+                    Soy Licenciado en Psicología desde el año 2021. Actualmente me desempeño
+                    profesionalmente en el Hospital Julio C. Perrando en el marco de la formación de postgrado
+                    en la modalidad de Residencia.
+                  </p>
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                  >
+                  Anteriormente, trabaje con jovene con discapacidad en un Centro Educativo Terapeutico. 
+                  Asimimo, realice intervenciones con población en el contexto de encierro en el año 2022.
+
+                  </p>
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                  >
+                  Actualmente me encuentro realizando la Etapa 1, del Informatorio, con el objetivo 
+                  de formarme en este ambito. 
+                  Ya que considero que podria complementarse la programación en el ambito de la atención a pacientes.
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mi historia"
+                    aria-describedby="mi_historia_titulo"
+                  >
+                    La implementación de dicha tecnología simplificaria y optimizaria muchos aspectos vinvulados a la atención.
+                  </p>
+                </div>
+              </section>
+             
+              
+              <section class="seccion_descripcion">
+                <div
+                  class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                  aria-label="descripcion personal"
+                >
+                  <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                    Pasatiempo
+                  </h3>
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mis hobbies"
+                    aria-describedby="mis_hobbies_titulo"
+                  >
+                    Mis tiempos libres mayormente esta destinados a la realización de algun tipo de actividad fisica.
+                    La misma se convierte en una actividad que aporta bienestar y equilibrio día a día.
+                  </p>
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mis hobbies"
+                    aria-describedby="mis_hobbies_titulo"
+                  >
+                    Ademas de aportar beneficios a la salud fisica, el ejercio promueve tambien beneficios vicnulados al bienestar animico.
+                  </p>
+                  <p
+                    class="seccion_descripcion__parrafo"
+                    aria-label="Detalles de mis hobbies"
+                    aria-describedby="mis_hobbies_titulo"
+                  >
+                  Ademas la realizo en ocaciones de manera grupal, debido a que 
+                  fortalece vínculos sociales y conecta con gente con intereses similares.  
+                  Por ese motivo destino tiempo a la realización de actividades fisicas.
+                  También en ocasiones disfruto de paseos recreativos, preferentemente al aire libre.
+                </div>
+                <div class="seccion_descripcion__porta_retrato ">
+                  <img
+                    class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                    src="./assets/imagenes/pasatiempo.jpg"
+                    alt="foto mientras me encontraba trabajo"
+                    title="foto en una reunion"
+                  />
+                </div>
+              </section>
+            </div>
+          </article>
+          
+    
+        
+          <article class="articulo proyectos" id="proyectos">
+            <h2 class="articulo__titulo">Mis proyectos</h2>
+            <div class="contenedor_tarjetas_grid">
+              <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+              >
+                <img
+                  class="tarjeta__imagen"
+                  src="./assets/imagenes/equipo.jpg"
+                  alt="imagen del proyecto"
+                  title="proyecto 1"
+                />
+                <div class="tarjeta__contenido">
+                  <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Gurpo terpautico</h3>
+                  <span class="tarjeta__divisor"></span>
+                  <p
+                    class="tarjeta__parrafo scroll scroll_fino"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_1"
+                  >
+                    Mi objetivo es elaborar un con html, css y javascript una pagina para registrar y evaluar el impacto
+                    del abordaje terapuetico en grupos, a traves de indices de nivel de participacion y beneficios obtenidos.
+                  </p>
+                  <a href="#" class="boton boton_oscuro" target="_blank"
+                    >Ver proyecto</a
+                  >
+                </div>
+              </article>
+              
+              <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+              >
+                <img
+                  class="tarjeta__imagen"
+                  src="./assets/imagenes/computadora.jpg"
+                  alt="imagen del proyecto"
+                  title="proyecto 3"
+                />
+                <div class="tarjeta__contenido">
+                  <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Informatizacion de los registros en papel</h3>
+                  <span class="tarjeta__divisor"></span>
+                  <p
+                    class="tarjeta__parrafo scroll scroll_fino"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_3"
+                  >
+                    Tengo intenciones de elaborar un registro informatico con html, css y java, de los datos que actualmente se registran en papel
+                    Dicha inicitiva podra otimizar la busqueda de informacion y la reduccion de costo en insumos de libreria.
+                  </p>
+                  <a href="#" class="boton boton_oscuro" target="_blank"
+                    >Ver proyecto</a
+                  >
+                </div>
+              </article>
+              
+              <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+              >
+                <img
+                  class="tarjeta__imagen"
+                  src="./assets/imagenes/stock.jpg"
+                  alt="imagen del proyecto"
+                  title="proyecto 5"
+                />
+                <div class="tarjeta__contenido">
+                  <h3 class="tarjeta__titulo" id="titulo_proyecto_5">Contro de Stok</h3>
+                  <span class="tarjeta__divisor"></span>
+                  <p
+                    class="tarjeta__parrafo scroll scroll_fino"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_5"
+                  >
+                  Tengo intenciones de elaborar un registro interno de cada servicio del hospital  con html, css y java, con el fin de 
+                  poder llevar un control y organizacion de los insumos de uso interno como asi tambien de los alimentos del personal.
+                  </p>
+                  <a href="#" class="boton boton_oscuro" target="_blank"
+                    >Ver proyecto</a
+                  >
+                </div>
+              </article>
+              <article
+                class="tarjeta"
+                aria-label="presentacion de proyecto personal"
+              >
+                <img
+                  class="tarjeta__imagen"
+                  src="./assets/imagenes/calendario.jpg"
+                  alt="imagen del proyecto"
+                  title="proyecto 6"
+                />
+                <div class="tarjeta__contenido">
+                  <h3 class="tarjeta__titulo" id="titulo_proyecto_6">Calendario virtual</h3>
+                  <span class="tarjeta__divisor"></span>
+                  <p
+                    class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_6"
+                  >
+                  Tengo intenciones de elaborar un calendario de uso interno en una pagina con html, css y java, para
+                  poder organizar y sistematizar los turnos del personala de salud que compone el Hospital.
+                  De esta manera podran tener acceso y verificar sus guardias, francos y licencias.
+                  </p>
+                  <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                </div>
+              </article>
+            </div>
+          </article>
+         
+        </main>
+      
+        <footer class="pie_de_pagina" role="contentinfo">
+          <!-- explicacion: la primer columna sera para nuestras redes,
+            cabe aclarar que la estructura sera similar en todos los casos y solo habrá pequeños cambios -->
+          <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+            <ul class="enlaces enlaces_redes">
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="https://github.com/Guillermoagustinacevedo"
+                  target="_blank"
+                  ><img
+                    class="enlaces__icono"
+                    src="./assets/logo/github-logo.png"
+                    alt="logo de github"
+                    title="github"
+                /></a>
+              </li>
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="https://www.instagram.com/guilleaacevedo"
+                  target="_blank"
+                >
+                  <img
+                    class="enlaces__icono"
+                    src="./assets/logo/ig-logo.png"
+                    alt="logo de instagram"
+                    title="instagram"
+                  />
+                </a>
+              </li>
+           
+            </ul>
+          </div>
+          <!-- explicacion: la segunda columna sera para nuestros medios de contacto  -->
+          <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+            <ul class="enlaces enlaces_vertical">
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="mailto:mail@mail.com"
+                  target="_blank"
+                  >Mail: acevedoguillermoagusin@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- explicacion: la ultima columna sera para los enlaces de navegacion -->
+          <div class="pie_de_pagina__columna" role="navigation">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+            <ul class="enlaces enlaces_vertical">
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="#presentacion"
+                  >Inicio</a
+                >
+              </li>
+              <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos"
+                  >Proyectos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- por ultimo los derechos de la pagina -->
+          <div class="pie_de_pagina__copyright">
+            <p>©️Copyright 2025</p>
+          </div>
+        </footer>
+        <!-- repaso de los elementos en el footer -->
+      </body>
+    </html>
